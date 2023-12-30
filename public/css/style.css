@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    margin: 5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+select{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    &:hover{
+        color: #fff;
+        background-color: gray;
+    }
+}
+.login{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.logout{
+    padding-left: 80rem;
+    margin-right: 20rem;
+}
